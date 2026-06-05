@@ -40,6 +40,19 @@ irm https://raw.githubusercontent.com/bmo272202/bmox-releases/main/install.ps1 |
 
 > After installing, **open a new terminal** and run `bmox --version` to confirm.
 
+### Uninstall
+If you ever need to remove Bmox, you can run the uninstaller script which will safely remove the binary and clean up your PATH.
+
+**macOS · Linux**
+```bash
+curl -fsSL https://raw.githubusercontent.com/bmo272202/bmox-releases/main/uninstall.sh | bash
+```
+
+**Windows (PowerShell)**
+```powershell
+irm https://raw.githubusercontent.com/bmo272202/bmox-releases/main/uninstall.ps1 | iex
+```
+
 ---
 
 ## Quickstart
@@ -98,3 +111,4 @@ Full documentation, tutorials, and the SDK guide are available at **[bmox.io/doc
 <p align="center">
   Free to use · Closed source · © <a href="https://bmox.io">Bmox</a>
 </p>
+
