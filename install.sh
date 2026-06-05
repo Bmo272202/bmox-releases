@@ -60,11 +60,11 @@ info "Detected platform: ${BOLD}${RID}${NC}"
 info "Fetching latest release..."
 
 if command -v curl &>/dev/null; then
-  LATEST=$(curl -fsSL "https://api.github.com/repos/${REPO}/releases/latest" \
-           | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/')
+  LATEST=$(curl -fsSL "https://api.github.com/repos/${REPO}/releases?per_page=1" \
+           | grep '"tag_name"' | head -n 1 | sed -E 's/.*"([^"]+)".*/\1/')
 elif command -v wget &>/dev/null; then
-  LATEST=$(wget -qO- "https://api.github.com/repos/${REPO}/releases/latest" \
-           | grep '"tag_name"' | sed -E 's/.*"([^"]+)".*/\1/')
+  LATEST=$(wget -qO- "https://api.github.com/repos/${REPO}/releases?per_page=1" \
+           | grep '"tag_name"' | head -n 1 | sed -E 's/.*"([^"]+)".*/\1/')
 else
   error "curl or wget is required."
 fi

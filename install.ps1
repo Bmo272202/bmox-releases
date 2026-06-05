@@ -49,9 +49,12 @@ Write-Info "Detected platform: $Rid"
 Write-Info "Fetching latest release..."
 
 try {
-    $Release = Invoke-RestMethod -Uri "https://api.github.com/repos/$Repo/releases/latest" `
+    $Releases = Invoke-RestMethod -Uri "https://api.github.com/repos/$Repo/releases?per_page=1" `
                -Headers @{ "User-Agent" = "bmox-installer" }
-    $LatestTag = $Release.tag_name
+    if ($Releases.Count -eq 0) {
+        Write-Fail "No releases found in $Repo."
+    }
+    $LatestTag = $Releases[0].tag_name
 } catch {
     Write-Fail "Could not fetch the latest release from GitHub: $_"
 }
