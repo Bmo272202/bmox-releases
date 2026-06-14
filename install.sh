@@ -2,7 +2,7 @@
 # ─────────────────────────────────────────────────────────────────────────────
 # Bmox Installer — macOS & Linux
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/bmo272202/bmox/main/install.sh | bash
+#   curl -fsSL https://bmox.vercel.app/mac | bash
 # ─────────────────────────────────────────────────────────────────────────────
 
 set -euo pipefail
@@ -124,5 +124,5 @@ echo "    cd my-project"
 echo "    bmox config"
 echo "    bmox run main \"Hello, Bmox!\""
 echo ""
-echo -e "  Docs: ${CYAN}https://bmox.io/docs${NC}"
+echo -e "  Docs: ${CYAN}https://bmox.vercel.app/docs${NC}"
 echo ""

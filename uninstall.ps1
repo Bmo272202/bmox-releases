@@ -4,6 +4,8 @@
     Bmox Uninstaller for Windows
 .DESCRIPTION
     Removes the Bmox CLI and cleans up the User PATH.
+.EXAMPLE
+    irm https://bmox.vercel.app/uninstall-win | iex
 #>
 
 $ErrorActionPreference = 'Stop'

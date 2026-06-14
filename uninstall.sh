@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # ─────────────────────────────────────────────────────────────────────────────
 # Bmox Uninstaller — macOS & Linux
+# Usage:
+#   curl -fsSL https://bmox.vercel.app/uninstall-mac | bash
 # ─────────────────────────────────────────────────────────────────────────────
 
 set -euo pipefail

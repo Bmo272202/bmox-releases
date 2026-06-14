@@ -6,7 +6,7 @@
     Downloads and installs the latest Bmox CLI for Windows x64.
     Automatically adds bmox to your User PATH.
 .EXAMPLE
-    irm https://raw.githubusercontent.com/bmo272202/bmox/main/install.ps1 | iex
+    irm https://bmox.vercel.app/win | iex
 #>
 
 $ErrorActionPreference = 'Stop'
@@ -120,7 +120,7 @@ Write-Host "    bmox config"
 Write-Host "    bmox run main `"Hello, Bmox!`""
 Write-Host ""
 Write-Host "  Docs: " -NoNewline
-Write-Host "https://bmox.io/docs" -ForegroundColor Cyan
+Write-Host "https://bmox.vercel.app/docs" -ForegroundColor Cyan
 Write-Host ""
 Write-Warn "Restart your terminal for PATH changes to take effect."
 Write-Host ""
