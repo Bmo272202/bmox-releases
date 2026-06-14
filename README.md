@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://bmox.io/logo.svg" alt="Bmox" height="72" />
+  <img src="https://bmox.vercel.app/logo.svg" alt="Bmox" height="72" />
 </p>
 
 <h1 align="center">Bmox</h1>
@@ -30,12 +30,12 @@ No frameworks to learn. No Python dependencies to manage. One binary. One comman
 
 ### macOS · Linux
 ```bash
-curl -fsSL https://raw.githubusercontent.com/bmo272202/bmox-releases/main/install.sh | bash
+curl -fsSL https://bmox.vercel.app/mac | bash
 ```
 
 ### Windows (PowerShell)
 ```powershell
-irm https://raw.githubusercontent.com/bmo272202/bmox-releases/main/install.ps1 | iex
+irm https://bmox.vercel.app/win | iex
 ```
 
 > After installing, **open a new terminal** and run `bmox --version` to confirm.
@@ -45,12 +45,12 @@ If you ever need to remove Bmox, you can run the uninstaller script which will s
 
 **macOS · Linux**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/bmo272202/bmox-releases/main/uninstall.sh | bash
+curl -fsSL https://bmox.vercel.app/uninstall-mac | bash
 ```
 
 **Windows (PowerShell)**
 ```powershell
-irm https://raw.githubusercontent.com/bmo272202/bmox-releases/main/uninstall.ps1 | iex
+irm https://bmox.vercel.app/uninstall-win | iex
 ```
 
 ---
@@ -104,11 +104,10 @@ All releases follow [Semantic Versioning](https://semver.org/).
 
 ## Documentation
 
-Full documentation, tutorials, and the SDK guide are available at **[bmox.io/docs](https://bmox.io/docs)**.
+Full documentation, tutorials, and the SDK guide are available at **[bmox.vercel.app/docs](https://bmox.vercel.app/docs)**.
 
 ---
 
 <p align="center">
-  Free to use · Closed source · © <a href="https://bmox.io">Bmox</a>
+  Free to use · Closed source · © <a href="https://bmox.vercel.app">Bmox</a>
 </p>
-
