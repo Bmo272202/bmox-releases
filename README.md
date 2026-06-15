@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://bmox.vercel.app/logo.svg" alt="Bmox" height="72" />
+  <img src="https://raw.githubusercontent.com/bmo272202/bmox-releases/main/assets/bmox_banner.png" alt="Bmox Banner" width="100%" />
 </p>
 
 <h1 align="center">Bmox</h1>
@@ -76,7 +76,7 @@ That's it. No boilerplate, no SDK imports, no cloud signup required.
 
 | Capability | Details |
 |---|---|
-| **21 node types** | `prompt`, `router`, `parallel`, `http`, `transform`, `retry`, `circuit_breaker`, `guardrail`, and more |
+| **20 node types** | `prompt`, `router`, `parallel`, `http`, `transform`, `retry`, `circuit_breaker`, `guardrail`, and more |
 | **23 built-in skills** | File system, HTTP, SQLite, JSON/CSV, shell, webhooks — ready to use in any agent |
 | **Multi-model** | OpenAI · Anthropic · Gemini · Ollama · built-in Demo (no key needed) |
 | **MCP support** | Connect any external tool server via Model Context Protocol |
