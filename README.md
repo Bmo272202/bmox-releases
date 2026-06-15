@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/bmo272202/bmox-releases/main/assets/bmox_banner.png" alt="Bmox Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/bmo272202/bmox-releases/assets/bmox_banner.png" alt="Bmox Banner" width="100%" />
 </p>
 
 <h1 align="center">Bmox</h1>
